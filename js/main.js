@@ -14,9 +14,9 @@ var option;
 
 var dataIdx = 0; // 用于跟踪当前显示的data索引
 
-$.getJSON("data/mapstyle.json", function (map_style) {
+$.getJSON("/data/mapstyle.json", function (map_style) {
   // 读取json
-  $.getJSON("data/shenyang11.json", function (data) {
+  $.getJSON("/data/shenyang11.json", function (data) {
     
 
     function updateChartData() {
