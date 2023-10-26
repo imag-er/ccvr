@@ -19,5 +19,5 @@ edges = np.array(edges)
 nodes_sh['index'] = nodes_sh.index.values
 nodes = nodes_sh[['x','y','index']].values
 
-np.savetxt("data/edges.txt",edges.astype(np.float64),fmt="%.4lf")
-np.savetxt("data/nodes.txt",nodes.astype(np.float64),fmt="%.4lf")
+np.savetxt("data/edges.txt",edges.astype(np.float64),fmt="%.8lf")
+np.savetxt("data/nodes.txt",nodes.astype(np.float64),fmt="%.8lf")
